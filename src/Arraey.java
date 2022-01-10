@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Arr {
+public class Arraey {
 
     private static Scanner sc = new Scanner(System.in);
 
@@ -39,5 +39,16 @@ public class Arr {
         return arayy;
     }
 
+    public static int[] readIntegers(int count){
+        int[] newarray=new int[count];
+        System.out.println("Inout all the "+count+" array elements one by one\n");
+        for(int i=0;i<count;i++){
+            newarray[i]=sc.nextInt();
+        }
+        return newarray;
+    }
 
+    public static int findminelementofthearray(int[] array){
+
+    }
 }
