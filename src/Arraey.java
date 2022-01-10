@@ -5,7 +5,7 @@ public class Arraey {
     private static Scanner sc = new Scanner(System.in);
 
     public static int[] getInteger() {
-        System.out.println("How many nos you are Planning to sort");
+        System.out.println("How many nos you are Planning to enter");
         int n = sc.nextInt();
         int[] gotArray = new int[n];
         System.out.println("Enter those integers");
@@ -48,7 +48,25 @@ public class Arraey {
         return newarray;
     }
 
-    public static int findminelementofthearray(int[] array){
+    public static int findminelementofthearray(int[] array) {
+        int minno = array[0];
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] < minno) {
+                minno = array[i];
+            }
+        }
+        return minno;
+    }
 
+    public static int[] revarray(int[] array) {
+        int temp;
+        int length = array.length - 1;
+        int hlflen = array.length / 2;
+        for (int i = 0; i < hlflen; i++) {
+            temp = array[i];
+            array[i] = array[length - i];
+            array[length - i] = temp;
+        }
+        return array;
     }
 }
