@@ -16,8 +16,8 @@ public class main {
         boolean quit = false;
         System.out.println("Starting the Phone.... ");
         int choice = 0;
+        printinstructions();
         while (!quit) {
-            printinstructions();
             System.out.println("Enter Your Choice");
             choice = scanner.nextInt();
             switch (choice) {

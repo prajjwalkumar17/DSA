@@ -5,7 +5,7 @@ public class ArreyList {
     static class MobilePhone {
         public static Scanner sc = new Scanner(System.in);
         private String myno;
-        private ArrayList<Contacts> contactsArrayList = new ArrayList<Contacts>();
+        private ArrayList<Contacts> contactsArrayList;
 
         public MobilePhone(String myno) {
             this.myno = myno;
