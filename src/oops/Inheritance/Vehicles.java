@@ -1,4 +1,4 @@
-package oops;
+package oops.Inheritance;
 
 public class Vehicles {
     private String Steering;

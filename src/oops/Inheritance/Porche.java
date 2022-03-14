@@ -1,4 +1,6 @@
-package oops;
+package oops.Inheritance;
+
+import oops.Inheritance.car;
 
 public class Porche extends car {
     private String plateno;
