@@ -1,8 +1,10 @@
 //        System.out.println("Enter the length of array");
 //        Arr.printInteger(Arr.sortInteger(Arr.getInteger()));
 //        int count =scanner.nextInt();
-//        System.out.println(Arraey.findminelementofthearray(Arraey.readIntegers(count)));
-//        Arraey.printInteger( Arraey.revarray( Arraey.getInteger()));
+//        System.out.println(Arrays.Arraey.findminelementofthearray(Arrays.Arraey.readIntegers(count)));
+//        Arrays.Arraey.printInteger( Arrays.Arraey.revarray( Arrays.Arraey.getInteger()));
+
+import Arrays.ArreyList;
 
 import java.util.Scanner;
 

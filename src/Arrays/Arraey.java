@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Scanner;
 
 public class Arraey {
@@ -27,12 +29,12 @@ public class Arraey {
         int temp;
         while (flag) {
             flag=false;
-            for(int i=0;i<arayy.length-1;i++){
+            for(int i=0; i<arayy.length-1; i++){
                 if(arayy[i]<arayy[i+1]){
-                   temp=arayy[i];
-                   arayy[i]=arayy[i+1];
-                   arayy[i+1]=temp;
-                   flag=true;
+                    temp=arayy[i];
+                    arayy[i]=arayy[i+1];
+                    arayy[i+1]=temp;
+                    flag=true;
                 }
             }
         }
@@ -42,7 +44,7 @@ public class Arraey {
     public static int[] readIntegers(int count){
         int[] newarray=new int[count];
         System.out.println("Inout all the "+count+" array elements one by one\n");
-        for(int i=0;i<count;i++){
+        for(int i=0; i<count; i++){
             newarray[i]=sc.nextInt();
         }
         return newarray;
