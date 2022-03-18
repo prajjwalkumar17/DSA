@@ -1,4 +1,4 @@
-//        System.out.println("Enter the length of array");
+package Arrays;//        System.out.println("Enter the length of array");
 //        Arr.printInteger(Arr.sortInteger(Arr.getInteger()));
 //        int count =scanner.nextInt();
 //        System.out.println(Arrays.Arraey.findminelementofthearray(Arrays.Arraey.readIntegers(count)));
